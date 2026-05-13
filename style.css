@@ -128,3 +128,34 @@ body{
     text-decoration: none;
     color: #ffffff;
 }
+
+/* details-section style */
+
+.details-section{
+    height: 482px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0));
+    border-radius: 16px;
+}
+
+.details-content >h4{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.details-content> button{
+    margin-top: 38px;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
