@@ -7,6 +7,11 @@
 
 }
 
+body{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
 /* font */
 .inter {
   font-family: "Inter", sans-serif;
@@ -82,4 +87,44 @@
     font-weight: bold;
     color: #070211;
     margin-bottom: 48px;
+}
+
+/* welcome section style */
+
+.welcome-section{
+    background-image: url(/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    gap: 40px;
+    box-shadow: inset 200px 0px 200px 100px #070211;
+}
+
+.welcome-content{
+    margin-left: 128px;
+    width: 700px;
+}
+
+.welcome-title{
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.welcome-description{
+    font-size: 18px;
+    color: #ffffff;
+    opacity: 80%;
+    margin-bottom: 48px;
+    line-height: 30px;
+}
+.welcome-content >a{
+    margin-left: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
 }
