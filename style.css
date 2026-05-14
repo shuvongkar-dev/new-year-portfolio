@@ -254,3 +254,32 @@ body{
     top: 77px;
     right: 40px;
 }
+
+/* card-section style */
+
+.card-section{
+    margin-top: 130px;
+}
+
+.card-sub-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.card-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.card-description{
+    font-size: 20px;
+    margin-bottom: 48px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
